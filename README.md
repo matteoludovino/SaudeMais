@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://imgur.com/xafU76N.png" width="250px"><br/>
+  <img src="https://imgur.com/OTgtBG5.png" width="250px"><br/>
 
   # Saúde+
 
