@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saúde+ | Consultas e Exames com Desconto</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="/src/styles/style.css">
+    <link rel="shortcut icon" type="imagex/png" href="/src/images/icon.ico">
+</head>
+
+<body>
+    <header>
+        <div class="container header-content">
+            <div class="logo">
+                <a href="/" onclick="window.location.reload(); return false;">
+                    <img src="/src/images/logo.png" alt="Saúde+">
+                </a>
+            </div>
+            <div class="header-cta">
+                <a href="#form" class="cta-button">Quero Economizar!</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Cuide da sua saúde sem gastar muito!</h1>
+            <p>Com o <strong>Saúde+</strong>, você tem acesso a consultas, exames e medicamentos com até <strong>60% de
+                    desconto</strong>. Sem mensalidade, sem burocracia.</p>
+            <a href="#form" class="cta-button">Quero me cadastrar agora!</a>
+        </div>
+    </section>
+
+    <section class="benefits">
+        <div class="container">
+            <h2 class="section-title">Para quem é o Saúde+?</h2>
+            <p style="text-align: center; max-width: 800px; margin: 0 auto 40px;">
+                Se você busca <strong>consultas acessíveis, exames com desconto e bem-estar</strong>, nosso programa é
+                ideal para você e sua família!
+            </p>
+
+            <h2 class="section-title">Benefícios exclusivos</h2>
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-user-md"></i>
+                    </div>
+                    <h3>Consultas a partir de R$ 50</h3>
+                    <p>Médicos generalistas e especialistas com valores acessíveis.</p>
+                </div>
+
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-flask"></i>
+                    </div>
+                    <h3>Até 70% off em exames</h3>
+                    <p>Laboratórios parceiros com preços reduzidos para membros.</p>
+                </div>
+
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-pills"></i>
+                    </div>
+                    <h3>Descontos em farmácias</h3>
+                    <p>Medicamentos com até 40% de desconto em redes parceiras.</p>
+                </div>
+
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-video"></i>
+                    </div>
+                    <h3>Telemedicina 24h</h3>
+                    <p>Atendimento online quando você precisar, sem custo adicional.</p>
+                </div>
+
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-heartbeat"></i>
+                    </div>
+                    <h3>Programa preventivo</h3>
+                    <p>Acompanhamento de saúde e dicas de bem-estar personalizadas.</p>
+                </div>
+
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-smile"></i>
+                    </div>
+                    <h3>Sem carência</h3>
+                    <p>Use os benefícios imediatamente após o cadastro.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">O que nossos pacientes dizem</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        "Fiz meus exames de rotina por metade do preço! O Saúde+ mudou a forma como cuido da minha
+                        saúde."
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Ana Santos"
+                            class="author-avatar">
+                        <div class="author-info">
+                            <h4>Ana Santos</h4>
+                            <p>Porto Alegre - RS</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        "Meu filho precisava de um pediatra urgente e consegui uma consulta no mesmo dia por apenas R$
+                        60. Salvou nosso final de semana!"
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Carlos Oliveira"
+                            class="author-avatar">
+                        <div class="author-info">
+                            <h4>Carlos Oliveira</h4>
+                            <p>Belo Horizonte - MG</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        "Economizei R$ 380 em meus medicamentos mensais. O desconto em farmácia já paga o programa todo
+                        ano!"
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Mariana Costa"
+                            class="author-avatar">
+                        <div class="author-info">
+                            <h4>Mariana Costa</h4>
+                            <p>São Paulo - SP</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq">
+        <div class="container">
+            <h2 class="section-title">Perguntas Frequentes (FAQ)</h2>
+
+            <div class="faq-categories">
+                <button class="faq-category-btn active" data-category="all">Todas</button>
+                <button class="faq-category-btn" data-category="planos">Planos</button>
+                <button class="faq-category-btn" data-category="consultas">Consultas</button>
+                <button class="faq-category-btn" data-category="exames">Exames</button>
+                <button class="faq-category-btn" data-category="pagamento">Pagamento</button>
+            </div>
+
+            <div class="faq-items">
+                <div class="faq-item" data-category="planos">
+                    <div class="faq-question">
+                        <span>Quais são os tipos de plano disponíveis?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Oferecemos três modalidades: Plano Individual (para uma pessoa), Plano Família (para até 5
+                            pessoas) e Plano Melhor Idade (com benefícios específicos para maiores de 60 anos). Todos
+                            dão acesso aos mesmos descontos, variando apenas no número de beneficiários.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-category="planos">
+                    <div class="faq-question">
+                        <span>Existe carência para usar os benefícios?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Não! Todos os benefícios podem ser utilizados imediatamente após a confirmação do cadastro.
+                            Você pode marcar consultas e exames no mesmo dia da adesão ao programa.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-category="consultas">
+                    <div class="faq-question">
+                        <span>Como marcar uma consulta com desconto?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Após se cadastrar, você receberá um acesso à nossa plataforma onde pode: 1) Buscar
+                            profissionais por especialidade ou localidade, 2) Ver os preços com desconto, 3) Agendar
+                            diretamente pelo site ou app. Também oferecemos agendamento por WhatsApp.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-category="consultas">
+                    <div class="faq-question">
+                        <span>Quais especialidades médicas estão disponíveis?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Temos mais de 30 especialidades, incluindo clínico geral, pediatria, ginecologia,
+                            cardiologia, dermatologia, oftalmologia e muitas outras. Algumas especialidades podem ter
+                            variação de preço conforme a região.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-category="exames">
+                    <div class="faq-question">
+                        <span>Como funciona o desconto em exames?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Você recebe um cartão virtual com seu número de beneficiário. Ao apresentá-lo em um dos
+                            laboratórios parceiros, automaticamente o preço será recalculado com seu desconto (que varia
+                            de 30% a 70% dependendo do exame). Não precisa de autorização prévia.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-category="exames">
+                    <div class="faq-question">
+                        <span>Preciso de pedido médico para fazer exames?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Sim, para exames mais complexos (como ressonância ou tomografia) é necessário pedido médico.
+                            Exames de rotina básicos (sangue, urina) podem ser feitos sem pedido, mas recomendamos
+                            sempre a orientação de um profissional.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-category="pagamento">
+                    <div class="faq-question">
+                        <span>Qual a forma de pagamento do programa?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>O Saúde+ funciona como um clube de benefícios: você paga uma anuidade única (que pode ser
+                            parcelada em até 12x) e tem acesso a todos os descontos durante 1 ano. Não cobramos
+                            mensalidade nem taxa de adesão.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-category="pagamento">
+                    <div class="faq-question">
+                        <span>Posso cancelar e receber reembolso?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Sim, oferecemos garantia de satisfação de 30 dias. Se dentro desse período você não utilizar
+                            nenhum benefício, devolvemos 100% do valor pago. Após esse prazo, o reembolso é proporcional
+                            ao tempo restante da anuidade.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section" id="form">
+        <div class="container">
+            <h2>Garanta seu acesso ao Saúde+!</h2>
+            <p>Preencha o formulário abaixo e comece a economizar em sua saúde hoje mesmo:</p>
+
+            <div class="form-container">
+                <form id="leadForm">
+                    <div class="form-group">
+                        <label for="name">Nome completo</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Telefone</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="plan">Tipo de plano desejado</label>
+                        <select id="plan" name="plan">
+                            <option value="individual">Individual</option>
+                            <option value="familia">Família (até 5 pessoas)</option>
+                            <option value="idoso">Melhor Idade</option>
+                        </select>
+                    </div>
+
+                    <div class="form-checkbox">
+                        <input type="checkbox" id="offers" name="offers" checked>
+                        <label for="offers">Quero receber dicas de saúde e ofertas exclusivas</label>
+                    </div>
+
+                    <button type="submit" class="submit-button">QUERO ME CADASTRAR AGORA!</button>
+                </form>
+            </div>
+
+            <p style="margin-top: 20px; font-size: 0.9rem;">
+                <i class="fas fa-lock"></i> Seus dados estão seguros. Não compartilhamos suas informações.
+            </p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-logo">
+                <img src="/src/images/logo.png" alt="Saúde+">
+            </div>
+            
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+
+            <div class="footer-links">
+                <a href="#">Termos de Uso</a>
+                <a href="#">Política de Privacidade</a>
+                <a href="#">Rede Credenciada</a>
+                <a href="#">Fale Conosco</a>
+            </div>
+
+            <div class="copyright">
+                &copy; 2025 Saúde+. Todos os direitos reservados.
+            </div>
+        </div>
+    </footer>
+
+    <div class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <script src="/src/javascript/script.js"></script>
+</body>
+
+</html>
